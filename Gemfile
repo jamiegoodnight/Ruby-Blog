@@ -33,6 +33,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Better looking errors
+gem 'better_errors', '~> 2.4'
+
+# Bulma CSS
+gem 'bulma-rails', '~> 0.6.1'
+
+# Simple Form
+gem 'simple_form', '~> 3.5'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
